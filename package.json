@@ -52,6 +52,6 @@
     "rimraf": "3.0.0",
     "travis-lint": "1.0.0",
     "webpack": "4.39.3",
-    "webpack-cli": "3.3.7"
+    "webpack-cli": "3.3.8"
   }
 }
