@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: greenkeeper-keeper
+  description: instance of greenkeeper-keeper for managing greenkeeper PRs automatically
+  homepage: 'https://github.com/form8ion/greenkeeper-keeper#readme'
+  private: false
