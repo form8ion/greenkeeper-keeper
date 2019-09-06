@@ -1,5 +1,7 @@
 import bunyan from 'bunyan';
 
+require('dotenv-safe').config();
+
 const logger = bunyan.createLogger({
   name: 'greenkeeper-keeper'
 });
@@ -33,7 +35,16 @@ export default {
             ]
           }
         }
-      }
+      },
+      {
+        plugin: require('hapi-greenkeeper-keeper'),
+        options: {
+          github: {token: process.env.GITHUB_TOKEN},
+          acceptAction: 'rebase'
+        }
+      },
+      {plugin: require('@travi/hapi-github-webhooks')},
+      {plugin: require('./auth')}
     ]
   }
 };
