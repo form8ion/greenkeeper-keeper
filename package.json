@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@hapi/glue": "6.1.1",
-    "@hapi/good": "8.2.1",
+    "@hapi/good": "8.2.2",
     "bunyan": "1.8.12",
     "good-bunyan": "3.0.1",
     "hapi-graceful-shutdown-plugin": "2.0.8"
