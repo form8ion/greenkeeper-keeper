@@ -11,6 +11,6 @@ export default function (env) {
       libraryTarget: 'commonjs2'
     },
     target: 'node',
-    externals: ['@octokit/rest', 'hapi-greenkeeper-keeper']
+    externals: ['hapi-greenkeeper-keeper']
   };
 }
