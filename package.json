@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@hapi/glue": "6.1.1",
-    "@hapi/good": "8.2.2",
+    "@hapi/good": "8.2.3",
     "@travi/hapi-github-webhooks": "3.0.0",
     "bunyan": "1.8.12",
     "dotenv-safe": "8.1.0",
