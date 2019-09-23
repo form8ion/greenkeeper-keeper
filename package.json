@@ -36,7 +36,7 @@
     "hapi-greenkeeper-keeper": "2.1.8"
   },
   "devDependencies": {
-    "@babel/register": "7.6.0",
+    "@babel/register": "7.6.2",
     "@form8ion/babel-preset": "1.5.7",
     "@form8ion/commitlint-config": "1.0.7",
     "@form8ion/eslint-config": "1.6.3",
