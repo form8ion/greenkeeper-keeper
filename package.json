@@ -37,7 +37,7 @@
     "dotenv-safe": "8.1.0",
     "good-bunyan": "3.0.1",
     "hapi-graceful-shutdown-plugin": "2.0.8",
-    "hapi-greenkeeper-keeper": "2.1.9"
+    "hapi-greenkeeper-keeper": "2.1.10"
   },
   "devDependencies": {
     "@babel/register": "7.6.2",
