@@ -1,10 +1,15 @@
-version: ~> 1.0
+version: "~> 1.0"
 language: node_js
 notifications:
   email: false
 before_script:
-  - npm ls >/dev/null
+- npm ls >/dev/null
+deploy:
+  provider: heroku
+  app: form8ion-greenkeeper-keeper
+  api_key:
+    secure: YL/G5iqiTOicR8V7lKa/pI8q8T8mW4hXgyGEW+DyCzyn1s7jDlj7J5Thf+Gso9WK42y0GTs3n9o3BGPpEVNISo0LjZfDXAL8NnvwImdZAMcSewUEOXv3FvCaFjhkLTjZ9Z0X/lfUvBOKlUcS69RnxfAqNqOGWv9TD54N1QkvVBgHh1Y4ossmu1s9kMiBm7mSGxfa2OVFwMjRxR561Nsu35kTNaDDjnMmVl/+05b7Ei7kWQxbyN/WpgGhY+hdgzNi51lIPCjHu+lmQTYnlcjlkGQ64ypoyDJwhjGQVAzag3QEXJIJ5kHEmlXITLkqDXZ5W4nVsQgP4JhqgbCjM52LGWwb0DLpfcCqEJ4bDD6DYZFmQx8Y7Pp13myYlMjGDNtFdlCvT6vD8yI2kypX3CmrmmKktBIBBDf2isK9qO0KAsi6JtDHEtpUwBcYfGRanFCcM4lrWqgbmgA38ddJXzI6B7spwXNsD0JeMCCJR8956zkg43hOgrNFvkfuEQdG8IQ1yQCQPKwhFL2CTBn+z4OXFRZz92S2SoLgxtBlYu8DYgkZRy+EClmxlkZHWAT+EmdaOToGGLXSJngMU2tt/LUiq4n39Si1rKArL0bykKdxivkltGwmzw+Vb0NqUDF6z/SSGP7ls1OBGLw+eru5AvYLedVkrkrPZALDmrrXDrG6Tjw=
 env:
   global:
-    - FORCE_COLOR=1
-    - NPM_CONFIG_COLOR=always
+  - FORCE_COLOR=1
+  - NPM_CONFIG_COLOR=always
