@@ -30,7 +30,7 @@
     "test:integration:wip": "run-s 'test:integration:base -- --profile wip'"
   },
   "dependencies": {
-    "@hapi/glue": "6.1.1",
+    "@hapi/glue": "6.2.0",
     "@hapi/good": "8.2.4",
     "@travi/hapi-github-webhooks": "3.0.0",
     "bunyan": "1.8.12",
