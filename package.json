@@ -59,7 +59,7 @@
     "remark-cli": "7.0.1",
     "rimraf": "3.0.0",
     "travis-lint": "1.0.0",
-    "webpack": "4.41.4",
+    "webpack": "4.41.5",
     "webpack-cli": "3.3.10"
   }
 }
