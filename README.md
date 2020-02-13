@@ -9,6 +9,7 @@ instance of greenkeeper-keeper for managing greenkeeper PRs automatically
 
 <!-- consumer badges -->
 [![MIT license][license-badge]][license-link]
+![node][node-badge]
 
 ### Build the Bundle
 
@@ -53,3 +54,4 @@ $ npm test
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [PRs-link]: http://makeapullrequest.com
 [PRs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+[node-badge]: https://img.shields.io/node/v/@travi/javascript-scaffolder.svg
